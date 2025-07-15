@@ -4,7 +4,7 @@ import mlflow
 from prefect import flow, task
 
 # public DNS of the EC2 instance
-TRACKING_SERVER_HOST = "ec2-3-90-186-17.compute-1.amazonaws.com" 
+TRACKING_SERVER_HOST = "127.0.0.1" 
 
 @flow
 def main_flow() -> None:
