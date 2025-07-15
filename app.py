@@ -6,7 +6,7 @@ from mlflow.tracking import MlflowClient
 
 app = Flask(__name__)
 
-TRACKING_SERVER_HOST = "hidden"
+TRACKING_SERVER_HOST = "http://127.0.0.1"
 preprocessor_addition = "/artifacts/preprocessor/preprocessor.bin"
 for_downloads = 'models/'
 preprocessor_location = for_downloads + 'preprocessor.bin'
