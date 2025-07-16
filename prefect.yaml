@@ -25,7 +25,7 @@ push:
 # pull section allows you to provide instructions for cloning this project in remote locations
 pull:
 - prefect.deployments.steps.git_clone:
-    repository: https://github.com/EugenePog/car-price-evaluation.git
+    repository: https://github.com/KrishnaG-101/Germany-Used-Cars-Price-Prediction.git
     branch: main
     access_token: null
 

@@ -75,19 +75,16 @@ Best practices
     pipenv install --python=3.10\
     pipenv run\
     pip install -r requirements.txt
-4. run environment:\
+3. run environment:\
     pipenv shell
-5. run mlflow (with correct environment):\
-    mlflow ui --backend-store-uri sqlite:///mlflow.db\
-    mlflow is available on http://127.0.0.1:5000
-6. create prefect project:\
+4. create prefect project:\
     prefect init
-7. run prefect and worker in it:\
+5. run prefect and worker in it:\
     prefect server start\
     prefect worker start -p car_price\
     prefect is available on http://127.0.0.1:4200 
-8. run application:\
+6. run application:\
     python app.py\
     application is available on http://127.0.0.1:5010/
-9. (optional) if you want to rebuild the model, run:\
+7. (optional) if you want to rebuild the model, run:\
     python orchestrate_train.py
